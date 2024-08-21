@@ -1,0 +1,126 @@
+h1{
+    font-family:"New Amsterdam", sans-serif;
+    font-size:5rem;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+h2{
+    font-family:"Nanum Gothic Coding", monospace;
+    text-align:center;
+    font-size:50px;
+    margin-bottom:30px;
+}
+.jobtitle{
+
+    margin-bottom:50px;
+
+}
+
+.title{
+    background-color: #B5EEE5;
+    margin:0;
+    padding:1em;
+    padding-bottom:3em;
+}
+
+body{
+    margin:0;
+}
+.icon-footer{
+    display:flex;
+    flex-wrap:no-wrap;
+    justify-content: center;
+    
+}
+
+.icons{
+    height:50px;
+    margin:20px;
+}
+
+#headshot{
+    margin:2em;
+    margin-bottom:.5em;
+}
+
+.outer-about-me{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+p{
+    margin:0;
+    font-size:30px;
+    width:25rem;
+    text-align:center;
+    font-family:"Cormorant Garamond",serif;
+    font-weight: 500;
+}
+
+section{
+    margin-top:100px;
+}
+
+.skill-image{
+    height:200px;
+}
+
+.grid-container{
+    display:grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top:75px;
+}
+
+.first-skill{
+    justify-self: right;
+    grid-area: 1/1/2/2;
+}
+.second-skill{
+    grid-area:2/2/3/3;
+}
+.third-skill{
+    justify-self:right;
+    grid-area:3/1/4/2;
+}
+.skill{
+    display:grid;
+    max-width: 40em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:.5fr 1.5fr;
+    margin-bottom:20px;
+    
+}
+
+h3{
+    font-family: "Cormorant Garamond",serif ;
+    font-size:50px;
+}
+
+.skill-description{
+    grid-column-start:2;
+    grid-row-start:2;
+    text-align:left;
+    margin-bottom:50px;
+}
+
+.skill-image{
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+button{
+    margin:35px;
+    
+}
+
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
